@@ -1,11 +1,14 @@
 class UsersController < ApplicationController
 
+	# GET users
+	def index
+	end
+
 	# POST users/add
 	def add
 		@errCode_and_count = User.add(params[:user], params[:password])
-		render json: @errCode_and_count
+	  render json: @errCode_and_count
 	end
-
 
 	# POST users/login
 	def login

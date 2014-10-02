@@ -13,3 +13,18 @@
  *= require_tree .
  *= require_self
  */
+body {
+	background-color: #002fa7; /* Klein Blue: The RGB = 0: 47: 167 */
+}
+
+header {
+    background-color: dodgerblue;
+    height: 30px;
+    font-family: "Great Vibes", Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    padding-top: 15px;
+    margin: -10px auto 0 auto;
+}

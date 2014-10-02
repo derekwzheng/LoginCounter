@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="2582502531">
+    <data-source source="LOCAL" name="Rails LoginCounter: development" uuid="25ea9734-e89e-4838-ac0a-7008d90c3977">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/db/development</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails LoginCounter: test" uuid="d78dab9a-c3c4-4439-9a03-e2ad4ef24612">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:db/test</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails LoginCounter: production" uuid="69ca4903-64ff-49b4-a927-6b7217b8e5b2">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:db/production</jdbc-url>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+

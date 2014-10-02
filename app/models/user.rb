@@ -16,7 +16,7 @@ class User < ActiveRecord::Base
 	    presence: true,
 	    length: { maximum: MAX_USERNAME_LENGTH }
 	# password invalidation
-	validates :password, presence: true
+	validates :password, presence: false # Login counter accept empty password.
 	validates :password, uniqueness: false
 	validates :password, length: { maximum: MAX_PASSWORD_LENGTH }
 

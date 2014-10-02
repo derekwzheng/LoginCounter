@@ -1,0 +1,65 @@
+body {
+	background-color: #002fa7; /* Klein Blue: The RGB = 0: 47: 167 */
+}
+
+.Window {
+
+    height: auto;
+	min-height: 250px;
+	width: 500px;
+	background-color: white;
+	margin: 130px auto;
+	font-family: Tw Cen MT, Arial, Cursive;
+	border: 5px white solid;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.inputField {
+    height: 30px;
+    width: 200px;
+    font-size: 16px;
+    font-family: "Josefin Slab", Arial, Cursive;
+}
+
+.Message {
+	margin-top: 20px;
+	text-align: center;
+	font-size: 30px;
+	font-family: "Josefin Slab", serif, Tw Cen MT, Cursive;
+	color: #002fa7;
+	font-weight: bold;
+    font-style: italic;
+    line-height: 90%;
+}
+
+.btn {
+    height: 35px;
+    width: 100px;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Josefin Slab", serif;
+    background-color: cornflowerblue;
+    border: 1px solid dodgerblue;
+    font-weight: bold;
+    box-shadow: 3px 3px 3px #888;
+    border-radius: 8%;
+    color: snow;
+    opacity: 0.75;
+}
+
+.activeBtn {
+    opacity: 1;
+}
+
+#logout {
+    height: 30px;
+    width: 100px;
+}

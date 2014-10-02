@@ -1,10 +1,11 @@
 Rails.application.routes.draw do
+  get "/users", to: "users#index", as: :index
   post "/users/add", to: "users#add", as: :add
   post "/users/login", to: "users#login", as: :login
   post "/TESTAPI/resetFixture", to: "users#resetFixture", as: :TESTAPI_resetFixture
   post "/TESTAPI/unitTests", to: "users#unitTests", as: :TESTAPI_unitTests
 
-
+  root "users#index"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
