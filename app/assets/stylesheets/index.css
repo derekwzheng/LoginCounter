@@ -21,7 +21,7 @@ body {
 }
 
 .inputField {
-    height: 30px;
+    height: 28px;
     width: 200px;
     font-size: 16px;
     font-family: "Josefin Slab", Arial, Cursive;
@@ -35,7 +35,7 @@ body {
 	color: #002fa7;
 	font-weight: bold;
     font-style: italic;
-    line-height: 90%;
+    line-height: 100%;
 }
 
 .btn {

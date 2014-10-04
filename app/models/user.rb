@@ -16,7 +16,7 @@ class User < ActiveRecord::Base
 	    presence: true,
 	    length: { maximum: MAX_USERNAME_LENGTH }
 	# password invalidation
-	validates :password, presence: false # Login counter accept empty password.
+	validates :password, presence: false # Login counter accepts empty password.
 	validates :password, uniqueness: false
 	validates :password, length: { maximum: MAX_PASSWORD_LENGTH }
 
@@ -48,13 +48,13 @@ class User < ActiveRecord::Base
 		end
 	end
 
-	# This function is used only for testing, and should clear the database of all rows. 
+	# This method is used only for testing, and should clear the database of all rows.
 	def self.TESTAPI_resetFixture
 		User.destroy_all
 		return {errCode: SUCCESS}
 	end
 
-
+  # This method is used only for testing, and it runs all the unit tests and functional tests automatically.
 	def self.TESTAPI_unitTests
 		cmd = "rspec > unitTestLog.txt"
 		system(cmd)

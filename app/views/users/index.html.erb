@@ -1,11 +1,13 @@
 <div class="Window">
     <p class="Message">Please enter your credentials below</p>
     <form class="form">
-      <input type="text" name="user" placeholder="Username" class="inputField" id="user">
+      <label class="inputFieldIcon" id="userIcon"></label><input type="text" name="user" placeholder="Username" class="inputField" id="user">
       <br/><br/>
-      <input type="password" name="password" placeholder="Password" class="inputField" id="password">
+      <label class="inputFieldIcon" id="passwordIcon"></label><input type="password" name="password" placeholder="Password" class="inputField" id="password">
       <input type="submit" id="Login" name="commit"  value="Login" class="btn">
       <input type="submit" id="AddUser" name="commit" value="Add User" class="btn">
     </form>
+    <p id="usernameWarningMsg"></p>
+    <p id="passwordWarningMsg"></p>
     <button class="btn" id="logout">Logout</button>
 </div>
